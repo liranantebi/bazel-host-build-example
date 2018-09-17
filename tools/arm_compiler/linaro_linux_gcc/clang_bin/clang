@@ -1,0 +1,4 @@
+#!/bin/bash --norc
+
+# TODO(Brian): Switch to downloading Clang too.
+exec -a "$0" "/usr/bin/clang-3.6" "$@"

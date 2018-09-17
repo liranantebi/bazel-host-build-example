@@ -1,0 +1,1 @@
+bazel build --crosstool_top=//tools/arm_compiler:toolchain --cpu=armeabi-v7a   --spawn_strategy=standalone  hello 
